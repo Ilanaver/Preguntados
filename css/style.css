@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: black;
+}
+
+.body {
+    background-color: #60BAFA;
+    
+}
+
+.Welcome {
+    margin: 1%;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 3%;
+}
+
+a .logo {
+    width: 5%;
+    margin-right: 2%;
+}
+
+.logo {
+    width: 5%;
+    margin-right: 2%;
+}
+
+.navbar-brand {
+    float: left;
+}
+
+.presentacion {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.presentacion img {
+    border: 5px rgb(0, 0, 0) solid;
+    padding: 0.3%;
+    width: 30%;
+    margin: 3%;
+}
+
+.jugar {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.jugar a {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 1%;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding-left: 2%;
+    padding-right: 2%;
+    font-weight: bold;
+}
+
+.imagenes {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenes img {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+}
+.padre-conf{
+    margin-bottom: 5rem;
+    background-color: #38c9e9;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.confjuego {
+    font-family: Arial, sans-serif;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #60BAFA;
+}
+.botonnnn{
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select,
+input[type="radio"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.option {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.option img {
+    width: 100px;
+    border: 2px solid transparent;
+}
+
+.option span {
+    display: block;
+    margin-top: 5px;
+}
+
+.selected {
+    border-color: #007bff;
+}
+
+.puntos {
+    display: flex;
+    justify-content: right;
+    margin-top: 1%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.pregunta {
+    text-align: center;
+}
+
+.pregunta h1 {
+    margin-bottom: 2%;
+}
+
+.opciones {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.opciones p {
+    padding: 1%;
+    padding-inline: 7%;
+    background-color: white;
+    border: 2px double black;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.ENVIARESPUESTA {
+    padding: 1%;
+    padding-inline: 2%;
+    border-radius: 15px;
+    margin-top: 3%;
+}
+
+.ftPreguntas {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.ftPreguntas img {
+    border-radius: 25px;
+}
+
+.contenedor {
+    box-shadow: #000000;
+    background-color: #c9e6fa;
+}
+.a{
+    
+}
+
+.correcta {
+    background-color: skyblue;
+    text-align: center;
+}
+
+
+
+.main{
+    
+    box-shadow: #000000;
+    background-color: rgb(8, 202, 8);
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.padre{
+    font-size: 170%;
+}
+.padre img{
+    width: 10%;
+}
+
+
+.hijo {
+        margin-bottom: 5%;
+}
+.flecha{
+    width: 80%;
+}
+.sigpreg {
+    padding: 1.5%;
+    border-radius: 15px;
+    background-color: green ;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: 1s;
+     
+}
+.sigpreg:hover{
+    background-color: rgb(7, 177, 7);
+}
+
+.SRP{
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.incorrecta{
+    background-color: skyblue;
+    text-align: center;
+}
+
+.sigpreg2 {
+    padding: 1.5%;
+    border-radius: 15px;
+    background-color: rgb(200, 5, 5);
+    margin-top: 10%; 
+}
+
+.div-incorrecto{
+    box-shadow: #000000;
+    background-color: rgba(231, 30, 30, 0.809);
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    width: 50%;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 15%;
+}
+.hijo2 p{
+    font-weight: bold;
+}
+.AAA{
+    display: flex;
+    justify-content: center;
+    
+}
+.padre2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 170%;
+}
+.padre2 img{
+    width: 10%;
+}
+.hijo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(143, 25, 25);
+}
+.hijo2 img{
+    display: flex;
+    justify-content: center;
+}
+.cruz{
+    width: 10%;
+}
+.Fin{
+    background-color: rgb(27, 108, 140);
+}
+
+.main3{
+    border-radius: 20px;
+    background-color: #7ac3f388;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.padre3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 160%;
+}
+.img-fin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-fin img{
+    width: 40%;
+}
+.boton-fin{
+    background-color: #0c8bed;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
+    
+    
+}
+.p-boton{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.botonn-finn{
+    text-decoration: none;
+    color: white;
+    
+}
+.hijo3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    
+}
+.imgFin{
+    width: 150%;
+}
+.sigpreg3 {
+    color: black;
+    padding: 1.5%;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 10%; 
+}
+  
+
+
+.boton-incorrecto{
+    margin-top: 1rem;
+    background-color: #ff0000;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.boton{
+    text-decoration: none;
+    color: white;
+   
+}
+.boton-incorrecto:hover{
+    background-color: #e93737;
+}
+
+.AAA-correcta{
+    display: flex;
+    justify-content: center;
+}
+.div-correcto{
+    box-shadow: #000000;
+    background-color: rgb(3, 182, 3);
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    width: 50%;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 15%;
+}
+.padre2-correcto{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 170%;
+    
+    
+}
+.padre2-correcto img{
+    width: 10%;
+}
+.hijo2-correcto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 120, 5);
+
+}
+
+
+.hijo2-correcto img{
+    display: flex;
+    justify-content: center;
+}
+.hijo2-correcto p{
+    font-weight: bold;
+}
+
+.boton-correcto{
+    margin-top: 1rem;
+    background-color: #1da70b;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.botonn{
+    text-decoration: none;
+    color: white;
+   
+}
+.boton-correcto:hover{
+    background-color: #099109;
+}
+.aaaaaaaaaaaa{
+    display: flex;
+    justify-content: center;
+}
+.boton-juego{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    padding: 1rem;
+   border-radius: 15px;
+   margin-bottom: 1rem;
+    
+}
+.a-juego{
+    text-decoration: none;
+    color: white;
+}
